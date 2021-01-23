@@ -1,0 +1,115 @@
+body{
+	background-color: #2A2B2F;
+}
+.back{
+	background-color: #14161A;
+	width: 70%;
+	height: 90%;
+	position: absolute;
+	left: 15%;
+	top: 5%;
+	bottom: 5%;
+	border: 1px solid transparent;
+	border-radius: 15px;
+	box-shadow:  5px 8px 10px #888888;
+}
+.imag{
+	position: absolute;
+	left: 4%;
+	height: 100%;
+	width: 100%;
+}
+.imag img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.imag:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.imag h1 {
+	color: white;
+	position: absolute;
+	left: 1%;
+	bottom: 10%;
+	font-size: 230%;
+	font-family: "Courier New", Courier, monospace;
+
+}
+.imag div{
+	position: absolute;
+	left: 11%;
+	bottom: 5%;
+}
+hr{
+	opacity: 0.5;
+}
+.tex{
+	position: absolute;
+	right: 0%;
+	width: 60%;
+	height: 100%;
+	overflow: scroll;
+
+}
+.tex h1{
+		font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+.tex p{
+	color: white;
+	line-height: 1.6;
+}
+.about {
+	position: relative;
+	left: 4%;
+	transition: transform .2s;
+}
+.about:hover{
+	transform: scale(1.1);
+}
+#dat{
+	font-size: 90%;
+	color: #354CB9;
+}
+#desc{
+	color:#888888;
+}
+.part2{
+	position: relative;
+	display: block;
+}
+
+.part3{
+	position: relative;
+	top: 40%;
+	}
+.gauche{
+	position: absolute;
+	left: 4%;
+	width: 42%;
+	transition: transform .2s;
+	}
+ .gauche:hover{
+	transform: scale(1.1);
+}
+.droite{
+	position: absolute;
+	right: 4%;
+	width: 42%;
+	transition: transform .2s;
+}
+ .droite:hover{
+	transform: scale(1.1);
+}
+.part4{
+	position: relative;
+	top: 76%
+}
+.part5{
+	position: relative;
+	top: 101%
+}
